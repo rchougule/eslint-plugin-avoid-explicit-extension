@@ -43,7 +43,7 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* [avoid-explicit-extension/no-js-ext](docs/rules/no-js-ext.md): Enforces requiring of local JS modules without specifying the extension
+* [avoid-explicit-extension/no-js-ext](https://github.com/rchougule/eslint-plugin-avoid-explicit-extension/blob/master/docs/rules/no-js-ext.md): Enforces requiring of local JS modules without specifying the extension
 
 
 
