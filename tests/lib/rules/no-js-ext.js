@@ -37,7 +37,7 @@ ruleTester.run("no-js-ext", rule, {
                 ecmaVersion: 6
             },
             errors: [{
-                message: "Avoid writing the extension explicitly while requiring local JS files",
+                message: "'require('./someFile.js')' shouldn't need .js extension",
                 type: "CallExpression"
             }]
         },
@@ -47,7 +47,7 @@ ruleTester.run("no-js-ext", rule, {
                 ecmaVersion: 6
             },
             errors: [{
-                message: "Avoid writing the extension explicitly while requiring local JS files",
+                message: "'require('./someFile.js')' shouldn't need .js extension",
                 type: "CallExpression"
             }]
         },
@@ -57,7 +57,7 @@ ruleTester.run("no-js-ext", rule, {
                 ecmaVersion: 6
             },
             errors: [{
-                message: "Avoid writing the extension explicitly while requiring local JS files",
+                message: "'require('./someFile.js')' shouldn't need .js extension",
                 type: "CallExpression"
             }]
         }

@@ -1,36 +1,28 @@
 # Prevent mention of extension while requiring JS files (no-js-ext)
 
-Please describe the origin of the rule here.
-
+To prevent the errors that might arise because of explicit declaration of the extension while requiring a custom module which consists of multiple JS files.
 
 ## Rule Details
 
-This rule aims to...
+This rule aims to catch those require statements where an explicit mention of extension of given.
 
-Examples of **incorrect** code for this rule:
-
-```js
-
-// fill me in
-
-```
-
-Examples of **correct** code for this rule:
+Examples of code which **won't** be catched by this rule:
 
 ```js
 
-// fill me in
+const someFile = require('./someFile');
+let someFile2 = require('./someFile2');
+var someFile3 = require('./someFile3');
 
 ```
 
-### Options
+Examples of code which **will** be catched by this rule:
 
-If there are any options, describe them here. Otherwise, delete this section.
+```js
 
-## When Not To Use It
+const someFile = require('./someFile.js');
+let someFile2 = require('./someFile2.js');
+var someFile3 = require('./someFile3.js');
 
-Give a short description of when it would be appropriate to turn off this rule.
+```
 
-## Further Reading
-
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.
