@@ -1,6 +1,10 @@
 {
   "name": "eslint-plugin-avoid-explicit-extension",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rchougule/eslint-plugin-avoid-explicit-extension.git"
+  },
   "description": "Prevention of explicit mention of extensions while requiring files",
   "keywords": [
     "eslint",
