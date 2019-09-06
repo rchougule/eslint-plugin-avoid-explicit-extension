@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-avoid-explicit-extension",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prevention of explicit mention of extensions while requiring files",
   "keywords": [
     "eslint",
