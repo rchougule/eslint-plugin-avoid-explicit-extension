@@ -1,6 +1,6 @@
 # eslint-plugin-avoid-explicit-extension
 
-Prevention of explicit mention of extensions while requiring files
+Prevention of explicit mention of extensions while requiring files.
 
 ## Installation
 
@@ -36,14 +36,14 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "avoid-explicit-extension/rule-name": 2
+        "avoid-explicit-extension/no-js-ext": "error"
     }
 }
 ```
 
 ## Supported Rules
 
-* Fill in provided rules here
+* [avoid-explicit-extension/no-js-ext](docs/rules/no-js-ext.md): Enforces requiring of local JS modules without specifying the extension
 
 
 
